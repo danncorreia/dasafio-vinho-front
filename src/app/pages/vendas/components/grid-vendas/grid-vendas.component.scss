@@ -1,0 +1,12 @@
+ion-item{
+  display:flex;
+  justify-content:space-around;
+  align-items:flex-start;
+
+  .label-cliente{
+    text-align: left;
+  }
+  .label-data{
+    text-align: right;
+  }
+}

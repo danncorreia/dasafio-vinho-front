@@ -1,0 +1,14 @@
+ion-item{
+  display:flex;
+  flex-direction:column;
+}
+
+.dados-compra{
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 300;
+
+  .data{
+    text-align:right;
+  }
+}

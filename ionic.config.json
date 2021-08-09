@@ -1,0 +1,8 @@
+{
+  "name": "Desafio Vinho",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "6fdc4686"
+}

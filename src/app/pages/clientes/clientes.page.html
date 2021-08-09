@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar  color="secondary">
+    <ion-title slot="start">clientes</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="presentActionSheet()">
+        <ion-icon slot="icon-only" name="star"></ion-icon>
+      </ion-button>
+      <ion-button (click)="presentFiltrosPrompt()">
+        <ion-icon slot="icon-only" name="filter"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <app-filtros [group]="formGroup"></app-filtros>
+  <app-grid-clients [filtros]="formGroup"></app-grid-clients>
+</ion-content>

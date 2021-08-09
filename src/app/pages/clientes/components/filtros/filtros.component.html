@@ -1,0 +1,4 @@
+<ion-chip *ngIf="group.value?.idFiltro !== 0">
+  <ion-icon (click)="removerFiltro()" name="close"></ion-icon>
+  <ion-label>{{group.value.nmFiltro}}</ion-label>
+</ion-chip>

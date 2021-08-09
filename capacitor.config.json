@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "Desafio Vinho",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
